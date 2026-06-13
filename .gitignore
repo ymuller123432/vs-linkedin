@@ -1,0 +1,8 @@
+# Heroku / Node
+node_modules/
+npm-debug.log
+.DS_Store
+
+# Local only
+*.log
+.env

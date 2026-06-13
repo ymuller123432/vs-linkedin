@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 100 100" width="100" height="100">
+  <!-- 
+    BIMI-compliant SVG Tiny PS logo for vs-linkedin.com
+    Professional square mark for email branding (LinkedIn advertising & marketing services).
+
+    Requirements satisfied:
+    - version="1.2" + baseProfile="tiny-ps"
+    - Square viewBox
+    - <title> element
+    - Minimal, no scripts, no external resources, no animations
+    - Solid background, high contrast
+
+    This file will be hosted at https://vs-linkedin.com/bimi/logo.svg once the site is live.
+  -->
+  <title>VS LinkedIn</title>
+
+  <!-- LinkedIn blue background -->
+  <rect x="0" y="0" width="100" height="100" rx="10" fill="#0A66C2"/>
+
+  <!-- Clean white "VS" monogram -->
+  <g fill="#FFFFFF" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+    <!-- Large VS -->
+    <text x="50" y="48" font-size="38" font-weight="700" letter-spacing="-1">VS</text>
+    <!-- Smaller brand descriptor -->
+    <text x="50" y="70" font-size="14" font-weight="600" letter-spacing="0.5">LINKEDIN</text>
+  </g>
+
+  <!-- Subtle accent line for polish (allowed in Tiny PS) -->
+  <rect x="28" y="55" width="44" height="2" rx="1" fill="#FFFFFF" opacity="0.85"/>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "name": "vs-linkedin",
+  "version": "1.0.0",
+  "description": "Professional site for VS LinkedIn advertising & marketing services with BIMI logo hosting",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
